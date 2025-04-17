@@ -17,7 +17,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "HACKER",
-    "PREFIX": "/",
+    "PREFIX": "!",
     "ADMINBOT": [
         "61575303690302"
     ],
