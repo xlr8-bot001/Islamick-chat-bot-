@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "HACKER"
-    "PREFIX": "!",
+    "BOTNAME": "𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗯𝗼𝘁",
+    "PREFIX": "/",
     "ADMINBOT": [
         "100089438197003"
     ],
     "NDH": [
-        "100089438197003"
+        "100006420851274"
     ],
     "DATABASE": {
         "sqlite": {
