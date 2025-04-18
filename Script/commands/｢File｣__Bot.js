@@ -62,16 +62,16 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        
    };
 
-   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "ceo")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ Jowel ッ ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ullash.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100000654976375\nতার সাতে যোগা যোগ করবেন WhatsApp :- +0175570***", threadID);
+   if ((event.body.toLowerCase() == "Tor Owner Ke") || (event.body.toLowerCase() == "Tor CEO ke")) {
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ Jowel ッ ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ullash.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100092166793458\nতার সাতে যোগা যোগ করবেন WhatsApp :- +01314318366", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "Admin ke ")) {
+   if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "Admin ke")) {
      return api.sendMessage("My Creator:Jowel ❤️ হাই আমি মেছেন্জার ROBOT  আামার Boss Jowel আমাকে বানিয়েছেন আপনাদের কে হাসানোর জন্য আমি চাই আপনারা সব সময় হাসি খুশি থাকেন", threadID);
    };
 
   if ((event.body.toLowerCase() == "admin") || (event.body.toLowerCase() == "boter admin")) {
-     return api.sendMessage("He is Jowel ッ❤️ তাকে সবাই Jowel নামে চিনে🤙", threadID);
+     return api.sendMessage("He is Mx Jowel一一ꪜ ヽ﹅ヽ丨倫 ッ❤️ তাকে সবাই Jowel নামে চিনে🤙", threadID);
    };
 
    if ((event.body.toLowerCase() == "bhabi") || (event.body.toLowerCase() == "vabi")) {
