@@ -9,7 +9,7 @@ module.exports = {
  name: "song",
  version: "1.0.1",
  hasPermssion: 0,
- credits: "MAHBUB SHAON",
+ credits: "JOWEL XHOWDHURY",
  description: "Download YouTube song from keyword search and link",
  commandCategory: "Media",
  usages: "[songName] [type]",
