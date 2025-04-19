@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "MAHBUB SHAON",
   description: "Make friends via Facebook id",
   commandCategory: "bot id",
-  usages: "uid",
+  usages: "100089438197003",
   cooldowns: 0
 };
 
