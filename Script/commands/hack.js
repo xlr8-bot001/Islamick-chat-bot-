@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "hack2",
+  name: "hack",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Joland Manzano",
+  credits: "JOWEL XHOWDHURY",
   description: "acc hacking",
   commandCategory: "Giáº£i trÃ­",
   usages: "@mention",
@@ -96,7 +96,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   const imageBuffer = canvas.toBuffer();
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
-  return api.sendMessage({ body: `╭──────•◈•──────╮\n         𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁        \n\nতোমার ফেসবুক আইডি'র হোগা মারা শেষ-🥵\nপাসওয়ার্ড দিয়ে দিলাম Boss Jowel এর কাছে-🥱🏃‍♂️🌻\n\n  BOT OWNER Jowel ッ \n╰──────•◈•───────╯`, attachment: fs.createReadStream(pathImg) },
+  return api.sendMessage({ body: `╭──────•◈•──────╮\n         𝗫𝗟𝗥𝟖  𝗖𝗛𝗔𝗧 - 𝗕𝗢𝗧        \n\nতোমার ফেসবুক আইডি'র হোগা মারা শেষ-🥵\nপাসওয়ার্ড দিয়ে দিলাম 𝗕𝗢𝗦𝗦 𝗝𝗢𝗪𝗘𝗟 এর কাছে-🥱🏃‍♂️🌻\n\n  BOT OWNER JOWEL ッ \n╰──────•◈•───────╯`, attachment: fs.createReadStream(pathImg) },
       event.threadID,
       () => fs.unlinkSync(pathImg),
       event.messageID);
