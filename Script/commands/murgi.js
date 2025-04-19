@@ -2,10 +2,10 @@ module.exports.config = {
     name: "murgi",
     version: "1.0.0",
     hasPermssion: 1,
-    credits: "...",
+    credits: "JOWEL XHOWDHURY",
     description: "5 বারের জন্য ক্রমাগত বন্ধুর ট্যাগ ট্যাগ করুন\nসেই ব্যক্তিকে আত্মা কলিং বলা যেতে পারে",
     commandCategory: "nsfw",
-    usages: " please @mention",
+    usages: "please @mention",
     cooldowns: 10,
     dependencies: {
         "fs-extra": "",
