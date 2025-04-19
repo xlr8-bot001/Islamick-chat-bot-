@@ -2,7 +2,7 @@ module.exports.config = {
     name: "hugv2",
     version: "3.1.1",
     hasPermssion: 0,
-    credits: "John Lester",
+    credits: "JOWEL XHOWDHURY",
     description: "Hug 🥰",
     commandCategory: "img",
     usages: "[@mention]",
@@ -69,6 +69,6 @@ module.exports.run = async function ({ event, api, args }) {
     if (!mention[0]) return api.sendMessage("Please mention 1 person.", threadID, messageID);
     else {
         const one = senderID, two = mention[0];
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n         🄰🄻🅅🄸🄱🄾🅃       \n\n—সব অনুভূতি হয়না প্রকাশিত।❤︎ —থাক না কিছুটা ব্যক্তিগত। 🌸🤍\n\n  Boss Jowel\n╰──────•◈•───────╯", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n         𝗫𝗟𝗥𝟖  𝗖𝗛𝗔𝗧 - 𝗕𝗢𝗧       \n\n—সব অনুভূতি হয়না প্রকাশিত।❤︎ —থাক না কিছুটা ব্যক্তিগত। 🌸🤍\n\n BOT OWNER JOWEL\n╰──────•◈•───────╯", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
     }
       }
